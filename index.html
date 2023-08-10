@@ -38,7 +38,7 @@
               <a class="page link" href="./portfolio.html">Portfolio</a>
             </li>
             <li class="item">
-              <a class="page link" href="#"s</a>
+              <a class="page link" href="#">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -519,6 +519,19 @@
               </li>
             </ul>
           </div>
+          <p>Subscribe</p>
+          <form>
+            <label>
+              <span>Email</span>
+              <input class="form-input" type="email" name="user-email" />
+            </label>
+            <div>
+              <button class="button-forms" type="submit">Subscribe</button
+              ><svg class="icon" width="24" height="20">
+                <use href="./images/icons.svg#subscribe-icon"></use>
+              </svg>
+            </div>
+          </form>
         </div>
       </div>
     </footer>
@@ -532,42 +545,56 @@
         </button>
         <p class="modal-title">Leave your contacts and we will call you back</p>
         <form class="form" name="modal-form">
-          
           <!--Name-->
           <label class="form-field">
             <span class="form-label">Name</span>
             <input class="form-input" type="text" name="user-name" />
+            <svg width="18" height="18">
+              <use href="./images/icons.svg#name-icon"></use>
+            </svg>
           </label>
 
           <!--Phone-->
           <label class="form-field">
             <span class="form-label">Phone</span>
             <input class="form-input" type="tel" name="user-phone" />
+            <svg width="18" height="18">
+              <use href="./images/icons.svg#phone-icon"></use>
+            </svg>
           </label>
 
           <!--Email-->
           <label class="form-field">
             <span class="form-label">Email</span>
             <input class="form-input" type="email" name="user-email" />
+            <svg width="18" height="18">
+              <use href="./images/icons.svg#email-icon"></use>
+            </svg>
           </label>
 
           <!--Comment-->
           <label class="form-field">
             <span class="form-label">Comment</span>
-            <textarea class="form-textarea" name="user-feedback" rows="8" placeholder="Text input"></textarea> 
+            <textarea
+              class="form-textarea"
+              name="user-feedback"
+              rows="8"
+              placeholder="Text input"
+            ></textarea>
           </label>
 
-           <!--Terms-->
-           <label class="form-agreement">
+          <!--Terms-->
+          <label class="form-agreement">
             <input type="checkbox" name="user-terms" />
-            <span class="form-agreement-text">I accept the terms and conditions of the <a class="form-terms" href="">Privacy Policy</a></span>
+            <span class="form-agreement-text"
+              >I accept the terms and conditions of the
+              <a class="form-terms" href="">Privacy Policy</a></span
+            >
           </label>
 
           <!--Form Button-->
 
           <button class="button-forms" type="submit">Send</button>
-
-          
         </form>
       </div>
     </div>
