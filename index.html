@@ -519,22 +519,27 @@
               </li>
             </ul>
           </div>
-          <p>Subscribe</p>
-          <form>
-            <label>
-              <span>Email</span>
-              <input class="form-input" type="email" name="user-email" />
-            </label>
-            <div>
-              <button class="button-forms" type="submit">Subscribe</button
-              ><svg class="icon" width="24" height="20">
+          <div class="footer-subscribe">
+            <p class="subscribe-title footer-heading">Subscribe</p>
+            <form class="subscribe-form">
+              <label class="subscribe-field">
+                <input
+                  class="subscribe-input"
+                  type="email"
+                  name="user-email"
+                  placeholder="Email"
+                />
+              </label>
+              <button type="submit">Subscribe</button
+              ><svg class="icon" width="24" height="24">
                 <use href="./images/icons.svg#subscribe-icon"></use>
               </svg>
-            </div>
-          </form>
+            </form>
+          </div>
         </div>
       </div>
     </footer>
+
     <!--MODAL-->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
@@ -589,7 +594,9 @@
               class="form-checkbox visually-hidden"
               type="checkbox"
               name="user-terms"
-            /><span class="form-agreement-text"
+            /><svg class="form-checkbox-icon" width="16" height="16">
+              <use href="./images/icons.svg#checkbox-icon"></use></svg
+            ><span class="form-agreement-text"
               >I accept the terms and conditions of the
               <a class="form-terms" href="">Privacy Policy</a></span
             >
@@ -597,7 +604,7 @@
 
           <!--Form Button-->
 
-          <button class="button-forms" type="submit">Send</button>
+          <button class="button-forms button" type="submit">Send</button>
         </form>
       </div>
     </div>
