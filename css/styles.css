@@ -850,7 +850,7 @@ body {
   font-weight: 500;
   padding: 8px 64px 8px 24px;
   border-radius: 4px;
-  border: 1px solid var(--iris);
+  border: none;
   background-color: var(--iris);
   color: var(--white);
   cursor: pointer;
